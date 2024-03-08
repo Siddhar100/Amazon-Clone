@@ -29,9 +29,10 @@ body {
 
 /* Header */
 .head {
+    position: fixed;
     padding: 15px 17px;
     display: flex;
-    height: 100%;
+    z-index: 5;
     width: 100%;
     background-color: #1b2530;
     align-items: center;
@@ -53,9 +54,10 @@ body {
 }
 
 .right {
+    position: relative;
     display: block;
     justify-content: center;
-    margin-left: 84%;
+    left: 80%;
 }
 
 .iconify {
@@ -72,7 +74,7 @@ body {
 
 }
 
-.sigin {
+.singin a {
 
     margin-left: 7px;
     font-size: 17px;
@@ -264,7 +266,7 @@ body {
 /* Part-5 */
 
 .multi-content {
-    display: flex;
+     display: flex;
     padding: 60px 5% 30px 5%;
     justify-content: space-between;
     min-height: 47vh;
